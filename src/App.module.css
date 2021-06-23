@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  height: 600px;
+  width: 100vh;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.marker {
+  background-image: url("./map-marker-1.png");
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+}
